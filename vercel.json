@@ -7,10 +7,10 @@
             "config":{"runtime":"Python 3.8"}
         }
     ],
-    "routes": [
+    "rewrites": [
         {
-            "src":"/(.*)",
-            "dest":"/"
+            "source":"/(.*)",
+            "destination":"/"
         }
     ]
 }
